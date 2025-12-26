@@ -87,7 +87,7 @@ else if($status=='6')
             header('Location: ./index.php?aksi=kategori&status=1');
             exit;
             
-}
+}  
 
 else if ($status=='7')
 {

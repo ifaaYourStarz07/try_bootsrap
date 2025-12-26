@@ -84,7 +84,7 @@
     <div class="main-content">
       <?php   
         if (isset($_GET['aksi'])) {
-            if ($_GET['aksi'] == "kategori") { 
+            if ($_GET['aksi'] == "k") { 
                 include './control/ckategori.php';
             } 
             else if ($_GET['aksi'] == "barang") { 
